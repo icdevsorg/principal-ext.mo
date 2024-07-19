@@ -1,0 +1,20 @@
+{
+    "version": 1,
+    "canisters": {
+        "test": {
+          "type": "motoko",
+          "main": "tests/ActorTest.mo",
+          "args": "-v --compacting-gc"
+        }
+    },
+    "defaults": {
+        "build": {
+            "packtool": "mops sources",
+            "args": ""
+        },
+        "replica": {
+          "subnet_type": "system"
+      }
+    }
+    
+}

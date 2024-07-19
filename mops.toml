@@ -1,0 +1,13 @@
+[dependencies]
+base = "0.11.1"
+
+[dev-dependencies]
+test = "1.2.0"
+fuzz = "0.2.1"
+
+[package]
+name = "principal-ext"
+version = "0.1.0"
+description = "Extensions for Principal"
+repository = "https://github.com/icdevsorg/principal-ext.mo"
+keywords = [ "prinicipal"]
